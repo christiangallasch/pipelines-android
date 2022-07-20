@@ -9,7 +9,7 @@ pool:
 steps:
 - task: Gradle@2
   inputs:
-    workingDirectory: ''
+    workingDirectory: 'christiangallasch/pipelines-android'
     gradleWrapperFile: 'gradlew'
     gradleOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
